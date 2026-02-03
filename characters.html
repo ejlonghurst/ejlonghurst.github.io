@@ -55,7 +55,7 @@
 								<article>
 									<header>
 										<span class="date">24/01/2026</span>
-										<h2><a href="characters.html">Cast<br />
+										<h2><a href="characters.html">...<br />
 										</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
@@ -67,7 +67,7 @@
 								<article>
 									<header>
 										<span class="date">24/01/2026</span>
-										<h2><a href="author2.html">About Me<br />
+										<h2><a href="author2.html">...<br />
 										</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
@@ -79,7 +79,7 @@
 								<article>
 									<header>
 										<span class="date">24/01/2026</span>
-										<h2><a href="glossary.html">Glossary<br />
+										<h2><a href="glossary.html">...<br />
 										</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
@@ -91,7 +91,7 @@
 								<article>
 									<header>
 										<span class="date">24/01/2026</span>
-										<h2><a href="books.html">Synopsis<br />
+										<h2><a href="books.html">...<br />
 										</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
@@ -125,6 +125,20 @@
 									</ul>
 								</article>
 							</section>
+
+										.posts.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Stack on mobile */
+@media screen and (max-width: 736px) {
+  .posts.two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 						<!-- Footer -->
 							<footer>
