@@ -127,17 +127,22 @@
 							</section>
 
 										.posts.two-col {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
-/* Stack on mobile */
+.posts.two-col article {
+  width: calc(50% - 1rem);
+}
+
+/* Mobile */
 @media screen and (max-width: 736px) {
-  .posts.two-col {
-    grid-template-columns: 1fr;
+  .posts.two-col article {
+    width: 100%;
   }
 }
+
 
 
 						<!-- Footer -->
