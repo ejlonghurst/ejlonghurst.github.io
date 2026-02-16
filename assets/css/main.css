@@ -4689,11 +4689,12 @@ input, select, textarea {
 
 	}
 #intro {
-    background-image: url("../../images/woodsphoto3.jpg.jpg");
-    background-size: cover;        /* fills entire section */
-    background-position: center;   /* centers image */
+    background-image: url("../../images/pexels-33205297-7042926.jpg");
+    background-size: cover;       
+    background-position: center;  
     background-repeat: no-repeat;
 }
+
 
 
 
