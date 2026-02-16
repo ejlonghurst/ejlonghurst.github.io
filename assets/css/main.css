@@ -4689,8 +4689,9 @@ input, select, textarea {
 
 	}
 #intro {
-    background-image: url("../../images/woods photo.jpg");
+    background-image: url("../../images/woodsphoto2.jpg");
     background-size: cover;        /* fills entire section */
     background-position: center;   /* centers image */
     background-repeat: no-repeat;
 }
+
